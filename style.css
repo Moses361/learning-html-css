@@ -3,46 +3,49 @@ body{
     margin-right: 50px;
     margin-bottom: 50px;
 }
-
-h1{
-    color:red
+.zindua_heading h1{
+    color: red;
 }
-.zindua_content h4{
 
-    color:blue;
+.zindua_content h1{
+    color: blue;
 }
+
 span{
-    color:aqua
+    color: red;
 }
+
 form{
     max-width: 400;
     margin: 0 auto;
 }
-input[type="text-area"], text-area{
-    width: 100;
+
+input[type="text"], textarea{
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
 
+}
 input[type="submit"]:hover{
     background-color: #454545;
 }
 
 table{
+    margin-top: 20px;
     width: 100%;
     border-collapse: collapse;
     border: 2px solid red;
     text-align: left;
 }
+
 th, td {
-    margin-top: 20px;
-    border:1px solid #dddd;
-    padding:8px;
+    border: 1px solid #ddd;
+    padding: 8px;
     text-align: left;
 }
 
-th{
+th {
     background-color: #f2f2f2;
 }
